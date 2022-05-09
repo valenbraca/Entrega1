@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>
+            Formulario de registro - Ejercicio 3
+        </title>
+        <style>
+            .div{padding: 10px;}
+        </style>
+        
+    </head>
+    <body>
+        <form>
+        <h1>Formulario de registro</h1>
+            <div class="div">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre">
+            </div>
+            <div class="div">
+                <label for="apellido">Apellidos:</label>
+                <input type="text" name="apellido">
+            </div>
+            <div class="div">
+                <label for="sexo-radio">Sexo:</label>
+                
+                <input type="radio" id="hombre" name="sexo-radio" value="hombre">
+                <label for="hombre">hombre</label>
+                
+                <input type="radio" id="mujer" name="sexo-radio" value="mujer">
+                <label for="mujer">mujer</label>
+            </div>
+            
+            <div class="div">
+                <label for="correo">Correo:</label>
+                <input type="email" name="correo">
+            </div>
+            
+            <div class="div">
+                <input type="checkbox" name="novedades" >
+                <label for="novedades">Deseo recibir información sobre novedades y ofertas</label>
+            </div>
+            <div class="div">
+                <input type="checkbox" name="condiciones">
+                <label for="condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+            </div>
+            <div class="div">
+                <input type="submit" name="boton-enviar" value="Enviar">
+            </div>
+            
+
+        </form>
+    </body>
+</html>
